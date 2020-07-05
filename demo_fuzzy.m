@@ -6,7 +6,7 @@ clc
 choose_norm=2; % Normalization methods, 0: no normalization, 1: z-score, 2: max-min
 init=4; % Initialization methods, 1: random, 2: K-means, 3: fuzzt c-means, 4: K-means clustering, accelerated by matlab matrix operations.
 repeat_num=10; % Repeat the experiment repeat_num times
-choose_algorithm=3; % Fuzzy clustering algorithms, 1: Fuzzy c-means clustering (FCM), 2: Fuzzy subspace clustering (FSC), 3: Maximum entropy clustering (MEC)
+choose_algorithm=1; % Fuzzy clustering algorithms, 1: Fuzzy c-means clustering (FCM), 2: Fuzzy subspace clustering (FSC), 3: Maximum entropy clustering (MEC)
 addpath(genpath('.'));
 %% Load data
 data_load=dlmread('.\iris.data');
