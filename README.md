@@ -1,6 +1,7 @@
 # Fuzzy_Clustering_Algorithms
 Several start-of-art fuzzy clustering algorithms, including Fuzzy c-means clustering, fuzzy subspace clustering and maximum entropy clustering algorithms.  
 Three example in the iris data set.    
+****  
 ## Demo of FCM
 Run demo_fuzzy.m, choose the hyper-parameter 'choose_algorithm=1'.  The clustering results:  
 Iteration  1, the number of iterations: 12, Accuary: 0.89333333  
@@ -52,3 +53,7 @@ The average running time is: 0.00469
 The average accuracy is: 0.92000000  
 The average rand index is: 0.90308725  
 The average normalized mutual information is: 0.75634802  
+## Author of Code  
+Rongrong Wang (kailugaji)   
+[My blog](https://www.cnblogs.com/kailugaji/)    
+2020/7/5
